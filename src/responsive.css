@@ -1,0 +1,65 @@
+/* Base font size */
+html {
+  font-size: 16px; /* default for mobile */
+}
+
+/* Mobile-first typography */
+h1 {
+  font-size: 1.5rem; /* 24px */
+  line-height: 1.2;
+}
+h2 {
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.3;
+}
+h3 {
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.4;
+}
+/* Tablet (≥ 768px) */
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 1.75rem; /* 28px */
+  }
+  h2 {
+    font-size: 1.375rem; /* 22px */
+  }
+  h3 {
+    font-size: 1.25rem; /* 20px */
+  }
+}
+
+/* Desktop (≥ 1024px) */
+@media (min-width: 1024px) {
+  html {
+    font-size: 16.5px;
+  }
+  h1 {
+    font-size: 1.875rem; /* 30px */
+  }
+  h2 {
+    font-size: 1.5rem; /* 24px */
+  }
+  h3 {
+    font-size: 1.375rem; /* 22px */
+  }
+}
+
+/* Large Desktop (≥ 1440px) */
+@media (min-width: 1440px) {
+  html {
+    font-size: 17px;
+  }
+  h1 {
+    font-size: 2rem; /* 32px */
+  }
+  h2 {
+    font-size: 1.625rem; /* 26px */
+  }
+  h3 {
+    font-size: 1.5rem; /* 24px */
+  }
+}
